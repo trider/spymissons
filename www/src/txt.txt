@@ -1,0 +1,18 @@
+System.TypeLoadException was unhandled
+  HResult=-2146233054
+  Message=Could not load type 'ClsGeneral.clsEnviromentEntry' from assembly 'ClsGeneral, Version=1.0.5062.21066, Culture=neutral, PublicKeyToken=null'.
+  Source=TestDriveReports
+  TypeName=ClsGeneral.clsEnviromentEntry
+  StackTrace:
+       at TestDriveReports.Presentation.ClsWebEnterce.get_details_for_testDrive(String userName, Presenter presenter)
+       at TDConsoleLog.ConsoleTools.BuildPresenter(TestDrive TD, Presenter presenter, ClsWebEnterce CWE) in c:\Users\Administrator\Documents\Visual Studio 2013\Projects\TDConsole2\TDConsoleLog\Program.cs:line 127
+       at TDConsoleLog.Program.Main(String[] args) in c:\Users\Administrator\Documents\Visual Studio 2013\Projects\TDConsole2\TDConsoleLog\Program.cs:line 57
+       at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+       at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+       at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+       at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+       at System.Threading.ThreadHelper.ThreadStart()
+  InnerException: 

@@ -1,0 +1,15 @@
+{
+  "name": "spymission",
+  "app_id": "",
+  "watchPatterns": [
+    "www/js/*",
+    "www/templates/*",
+    "www/css/*"
+  ],
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "https://maps.googleapis.com/maps/api"
+    }
+  ]
+}

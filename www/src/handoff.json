@@ -1,0 +1,27 @@
+[
+  {
+    "qID": 1,
+    "label": "מה חשוב ללקוח ברכב",
+    "comment": "",
+    "mandatory": true
+  },
+  {
+    "qID": 2,
+    "label": "מה הלקוח אהב ברכב",
+    "comment": "",
+    "mandatory": true
+  },
+  {
+    "qID": 3,
+    "label": "מה הלקוח לא אהב ברכב",
+    "comment": "",
+    "mandatory": true
+  },
+  {
+    "qID": 4,
+    "label": " החסם לסגירת העסקה",
+    "comment": "",
+    "mandatory": true
+  }
+]
+

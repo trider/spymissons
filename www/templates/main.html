@@ -1,0 +1,27 @@
+
+<ion-view>
+  <ion-header-bar class="bar-stable">
+    <h1 class="title">Agents</h1>
+    <a class="button button-clear button-icon icon-right ion-arrow-right-c"
+       href="#/distance"></a>
+  </ion-header-bar>
+  <ion-content ng-init="init()">
+    <div class="list">
+      <div class="item item-text-wrap"
+           ng-model="country"
+           ng-repeat="country in countryLst"
+           ng-init="getIsolated(country);getUnisolated(country)">
+        <strong>{{country.name}}</strong> {{country.isolatedStatus}}
+        (<span ng-repeat="agent in country.isolated"><span ng-show="$index>0">,
+      </span>{{agent.name}}</span>)
+        {{country.unisolatedStatus}}
+        (<span ng-repeat="agent in country.unisolated"><span ng-show="$index>0">,
+    </span>{{agent.name}}</span>).
+      </div>
+      <div class="item item-text-wrap">So, the result is <strong>{{isoCountry}}</strong>
+        with an isolation
+        degree of {{isoNum}}.</div>
+    </div>
+
+</ion-view>
+

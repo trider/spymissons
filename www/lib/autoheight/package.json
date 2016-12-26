@@ -1,0 +1,45 @@
+{
+  "name": "autoheight",
+  "version": "0.0.4",
+  "description": "Textareas with automatically adjusted height",
+  "homepage": "http://kamilkp.github.io/autoheight",
+  "author": {
+    "name": "Kamil Pekala",
+    "email": "kamilkp@gmail.com",
+    "url": "http://github.com/kamilkp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilkp/autoheight.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "grunt travis"
+  },
+  "dependencies": {},
+  "gitHead": "d7408915aa5ea3e2e6a8f327ec28cfccbdca230e",
+  "bugs": {
+    "url": "https://github.com/kamilkp/autoheight/issues"
+  },
+  "_id": "autoheight@0.0.4",
+  "_shasum": "8ddca827d9a1b8b2fbfaf9faedfbae87fecd3603",
+  "_from": "autoheight@latest",
+  "_npmVersion": "2.10.1",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "name": "kamilkp",
+    "email": "kamilkp@gmail.com"
+  },
+  "dist": {
+    "shasum": "8ddca827d9a1b8b2fbfaf9faedfbae87fecd3603",
+    "tarball": "https://registry.npmjs.org/autoheight/-/autoheight-0.0.4.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "kamilkp",
+      "email": "kamilkp@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/autoheight/-/autoheight-0.0.4.tgz"
+}
